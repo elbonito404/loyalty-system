@@ -3,5 +3,5 @@ import os
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Токен бота из @BotFather
-ADMIN_ID = os.getenv("ADMIN_ID")    # Ваш ID в Telegram для уведомлений
+BOT_TOKEN = os.getenv("8062555913:AAHdkW6eNXKCBv9pTlMsfmwEtiXUQBtJqtc")  # Токен бота из @BotFather
+ADMIN_ID = os.getenv("@fxckND")    # Ваш ID в Telegram для уведомлений
