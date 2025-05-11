@@ -1,3 +1,4 @@
+pip install aiogram python-dotenv
 import logging
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
