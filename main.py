@@ -8,9 +8,9 @@ bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
-# "База данных" (в реальном проекте используйте SQLite/PostgreSQL)
+# "База данных"
 users_db = {}
-promo_codes = {"WELCOME10": 10, "SUMMER20": 20}  # Промокоды: код → баллы
+promo_codes = {"WELCOME10": 10, "SUMMER20": 20}  # Промокоды: код > баллы
 
 # Команда /start
 @dp.message_handler(commands=["start"])
